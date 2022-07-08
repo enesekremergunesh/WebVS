@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <title>Document</title>
+
+  <style>
+    .btn.btn-outline-info {
+  --bs-btn-padding-x: 0.2em;
+  --bs-btn-padding-y: 0.2em;
+}
+  </style>
+
+</head>
+
+<body>
+
+  <button class="btn btn-primary" onclick="show_size()"> check</button>
+
+  <div class="container">
+    <div class="col-md-2">
+      <button class="btn btn-danger" style="width: 100%;">hello</button>
+    </div>
+  </div>
+
+  <br /><br />
+
+  <div name="Account Form Container" class="container">
+    <form name="Account Form" class="row g-3 needs-validation" novalidate>
+
+      <div name="Avatar Div" class="col-12 text-center">        
+        <label for="avatars" class="form-label" style="width:100%;">Avatar</label>
+        <div class="btn-group" id="avatars">
+
+          <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off">
+          <label class="btn btn-outline-info" for="option1">
+            <img src="/../assets/avatars/1.png" alt="" width="80rem" height="80rem"/>
+          </label>
+
+          <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+          <label class="btn btn-outline-info" for="option2">
+            <img src="/../assets/avatars/2.png" alt="" width="80rem" height="80rem"/>
+          </label>
+
+          <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off" checked>
+          <label class="btn btn-outline-info" for="option3">
+            <img src="/../assets/avatars/3.png" alt="" width="80rem" height="80rem"/>
+          </label>
+
+          <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off">
+          <label class="btn btn-outline-info" for="option4">
+            <img src="/../assets/avatars/4.png" alt="" width="80rem" height="80rem"/>
+          </label>
+
+
+        </div>
+      </div>
+
+      <div name="First Name Div" class="col-md-6">
+        <label for="formFirstName" class="form-label">First name</label>
+        <input id="formFirstName" type="text" class="form-control" value="Mark" required>
+      </div>
+
+      <div name="Last Name Div" class="col-md-6">
+        <label for="formLastName" class="form-label">Last name</label>
+        <input id="formLastName" type="text" class="form-control" value="Otto" required>
+      </div>
+
+
+      <div name="Email Div" class="col-md-6">
+        <label for="formEmail" class="form-label">Email</label>
+        <div class="input-group">
+          <input id="formEmail" type="text" class="form-control" value="mark.otto" style="width: 23%">
+          <span class="input-group-text">@</span>
+          <input id="formDomain" type="text" class="form-control" value="mymail.com">
+        </div>
+      </div>
+
+      <div name="Password Div" class="col-md-6">
+        <label for="formPassword" class="form-label">Password</label>
+        <div class="input-group">
+          <input id="formPassword" type="password" class="form-control" value="example password" disabled>
+          <button class="btn btn-outline-secondary" type="button" id="button-addon2" style="width:45%;">Edit
+            Password</button>
+        </div>
+      </div>
+
+      <div name="Submit Div" class="col-12">
+        <button class="btn btn-primary" type="submit">Save Changes</button>
+      </div>
+    </form>
+
+  </div>
+
+
+  <script src="../js/bootstrap.bundle.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <script src="../js/jquery.validate.min.js"></script>
+  <script src="../js/ui.js"></script>
+  <script>
+    UI.screen_size_change_listener();
+
+  </script>
+</body>
+
+</html>

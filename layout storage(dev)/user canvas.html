@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <title>Document</title>
+
+
+</head>
+
+<body>
+
+  <button class="btn btn-primary" onclick="show_size()"> check</button>
+
+  <div class="container">
+    <div class="col-md-2">
+      <button class="btn btn-danger" style="width: 100%;">hello</button>
+    </div>
+  </div>
+
+
+  <div name="User Canvas Body Container" class="container">
+    <div class="row justify-content-center">
+      <div class="col-10 text-center">
+        <img class="img-fluid" alt="Profile Photo" style="max-height: 15rem;"
+          src="https://htmlstream.com/preview/unify-v2.6.1/assets/img-temp/400x450/img5.jpg">
+      </div>
+    </div>
+    <div class="row justify-content-center my-3">
+      <div class="col-10 text-center">
+        <h3>Name Surname</h3>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-10">
+        <div class="list-group">
+          <a style="border: none;" href="#" class="list-group-item list-group-item-action">My Shelf</a>
+          <a style="border: none;" href="#" class="list-group-item list-group-item-action">Account
+            Settings</a>
+          <a style="border: none; color: red;" href="#"
+            class="list-group-item list-group-item-action">Logout</a>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <script src="../js/bootstrap.bundle.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <script src="../js/jquery.validate.min.js"></script>
+  <script src="../js/ui.js"></script>
+  <script>
+    UI.screen_size_change_listener();
+
+  </script>
+</body>
+
+</html>

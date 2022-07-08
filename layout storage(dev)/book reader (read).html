@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html class="fit" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <title>Document</title>
+
+  <style>
+    .fit {
+      height: 100%;
+    }
+  </style>
+
+</head>
+
+<body style="height:94%" >
+
+  <div name="Book Container" class="container fit">
+    <br />
+    <div name="Book Container Row" class="row fit">
+      <div name="Book Container Col" class="col fit">
+        <h4>War and Peace</h4>
+        <p>by Leo Tolstoy</p>
+
+        <div name="Book Reader Container" class="bd-example" style="border: solid 3px black; height: 50%;">
+          <div name="Book Reader Row" class="row fit"
+            style="padding-top: 0.3em;padding-bottom: 0.3em;padding-left: 1em;padding-right: 1em;">
+
+            <div name="Book Contents Col" id="bookContents" class="col-3 fit collapse-horizontal collapse show"
+              style="overflow-y: scroll;">
+
+              <div id="list-contents" class="list-group" data-bs-spy="scroll" data-bs-target="#navbar-example2">
+                <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-5">Item 5</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-6">Item 6</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-7">Item 7</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-8">Item 8</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-9">Item 9</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-10">Item 10</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-11">Item 11</a>
+              </div>
+
+            </div>
+
+            <button class="btn btn-outline-primary text-center"
+              style="width:1.5em; height:1.5em; padding:0; margin:0; font-size: 20px; line-height: 0; align-self: center; --bs-btn-border-radius: 1rem;">
+
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
+                class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                <path
+                  d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+              </svg>
+
+            </button>
+
+            <div name="Book Text" class="col fit" style="overflow-y: scroll;" data-bs-spy="scroll"
+              data-bs-target="#list-contents, #list-pages" data-bs-smooth-scroll="true" tabindex="0">
+              <div class="scrollspy-example">
+                <div id="list-page-1">
+                  <p style="font-size: 11px; text-align: end; margin-bottom:0; margin-top:2rem">page 1</p>
+                  <h4 id="list-item-1">Item 1</h4>
+                  <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                    appropriate navigation link is highlighted. It's repeated throughout the component example. We keep
+                    adding some more example copy here to emphasize the scrolling and highlighting.
+
+                    Keep in mind that the JavaScript plugin tries to pick the right element among all that may be
+                    visible.
+                    Multiple visible scrollspy targets at the same time may cause some issues.</p>
+                  <h4 id="list-item-2">Item 2</h4>
+                  <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                    appropriate navigation link is highlighted. It's repeated throughout the component example. We keep
+                    adding some more example copy here to emphasize the scrolling and highlighting.
+
+                    Keep in mind that the JavaScript plugin tries to pick the right element among all that may be
+                    visible.
+                    Multiple visible scrollspy targets at the same time may cause some issues.</p>
+                </div>
+                <div id="list-page-2">
+                  <p style="font-size: 11px; text-align: end; margin-bottom:0; margin-top:2rem">page 2
+                  </p>
+                  <h4 id="list-item-3">Item 3</h4>
+                  <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                    appropriate navigation link is highlighted. It's repeated throughout the component example. We keep
+                    adding some more example copy here to emphasize the scrolling and highlighting.
+  
+                    Keep in mind that the JavaScript plugin tries to pick the right element among all that may be visible.
+                    Multiple visible scrollspy targets at the same time may cause some issues.</p>
+                  <h4 id="list-item-4">Item 4</h4>
+                  <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                    appropriate navigation link is highlighted. It's repeated throughout the component example. We keep
+                    adding some more example copy here to emphasize the scrolling and highlighting.
+  
+                    Keep in mind that the JavaScript plugin tries to pick the right element among all that may be visible.
+                    Multiple visible scrollspy targets at the same time may cause some issues.</p>
+                  <h4 id="list-item-5">Item 5</h4>
+                  <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                    appropriate navigation link is highlighted. It's repeated throughout the component example. We keep
+                    adding some more example copy here to emphasize the scrolling and highlighting.
+  
+                    Keep in mind that the JavaScript plugin tries to pick the right element among all that may be visible.
+                    Multiple visible scrollspy targets at the same time may cause some issues.</p>
+
+                </div>
+                <div id="list-page-3">
+                  <p style="font-size: 11px; text-align: end; margin-bottom:0; margin-top:2rem">page 3
+                  </p>
+                  <h4 id="list-item-6">Item 6</h4>
+                  <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                    appropriate navigation link is highlighted. It's repeated throughout the component example. We keep
+                    adding some more example copy here to emphasize the scrolling and highlighting.
+  
+                    Keep in mind that the JavaScript plugin tries to pick the right element among all that may be visible.
+                    Multiple visible scrollspy targets at the same time may cause some issues.</p>
+                  <h4 id="list-item-7">Item 7</h4>
+                  <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                    appropriate navigation link is highlighted. It's repeated throughout the component example. We keep
+                    adding some more example copy here to emphasize the scrolling and highlighting.
+  
+                    Keep in mind that the JavaScript plugin tries to pick the right element among all that may be visible.
+                    Multiple visible scrollspy targets at the same time may cause some issues.</p>
+                  <h4 id="list-item-8">Item 8</h4>
+                  <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                    appropriate navigation link is highlighted. It's repeated throughout the component example. We keep
+                    adding some more example copy here to emphasize the scrolling and highlighting.
+  
+                    Keep in mind that the JavaScript plugin tries to pick the right element among all that may be visible.
+                    Multiple visible scrollspy targets at the same time may cause some issues.</p>
+                  <h4 id="list-item-9">Item 9</h4>
+                  <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                    appropriate navigation link is highlighted. It's repeated throughout the component example. We keep
+                    adding some more example copy here to emphasize the scrolling and highlighting.
+  
+                    Keep in mind that the JavaScript plugin tries to pick the right element among all that may be visible.
+                    Multiple visible scrollspy targets at the same time may cause some issues.</p>
+
+                </div>
+                <div id="list-page-4">
+                  <p style="font-size: 11px; text-align: end; margin-bottom:0; margin-top:2rem">page 4
+                  </p>
+                  <h4 id="list-item-10">Item 10</h4>
+                  <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                    appropriate navigation link is highlighted. It's repeated throughout the component example. We keep
+                    adding some more example copy here to emphasize the scrolling and highlighting.
+  
+                    Keep in mind that the JavaScript plugin tries to pick the right element among all that may be visible.
+                    Multiple visible scrollspy targets at the same time may cause some issues.</p>
+                  <h4 id="list-item-11">Item 11</h4>
+                  <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                    appropriate navigation link is highlighted. It's repeated throughout the component example. We keep
+                    adding some more example copy here to emphasize the scrolling and highlighting.
+  
+                    Keep in mind that the JavaScript plugin tries to pick the right element among all that may be visible.
+                    Multiple visible scrollspy targets at the same time may cause some issues.</p>
+                </div>
+              </div>
+
+
+            </div>
+
+
+            <button class="btn btn-outline-primary text-center"
+              style="width:1.5em; height:1.5em; padding:0; margin:0; font-size: 20px; line-height: 0; align-self: center; --bs-btn-border-radius: 1rem;">
+
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
+                class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                <path
+                  d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+              </svg>
+
+            </button>
+
+            <div name="Book Pages Col" id="bookPages" class="col-3 fit collapse-horizontal collapse show"
+              style="overflow-y: scroll;">
+
+
+
+              <div class="offcanvas-header border-bottom">
+                <h5 class="offcanvas-title" id="bdSidebarOffcanvasLabel">Pages</h5>
+              </div>
+
+
+              <div id="list-pages" class="list-group" data-bs-spy="scroll" data-bs-target="#navbar-example2">
+                <a class="list-group-item list-group-item-action" href="#list-page-1">Page 1</a>
+                <a class="list-group-item list-group-item-action" href="#list-page-2">Page 2</a>
+                <a class="list-group-item list-group-item-action" href="#list-page-3">Page 3</a>
+                <a class="list-group-item list-group-item-action" href="#list-page-4">Page 4</a>
+              </div>
+
+            </div>
+
+
+
+          </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+  <script src="../js/bootstrap.bundle.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <script src="../js/jquery.validate.min.js"></script>
+  <script src="../js/ui.js"></script>
+  <script>
+
+  </script>
+</body>
+
+</html>
