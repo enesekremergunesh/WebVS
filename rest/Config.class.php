@@ -15,7 +15,7 @@ class Config {
   }
 
   public static function DB_SCHEME(){
-    return Config::get_env("DB_SCHEME", "webvsdb");
+    return Config::get_env("DB_SCHEME", "defaultdb");
   }
 
   public static function DB_PORT(){
